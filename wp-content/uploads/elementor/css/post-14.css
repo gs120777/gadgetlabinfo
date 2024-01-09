@@ -1,0 +1,63 @@
+.elementor-kit-14 {
+    --e-global-color-primary: #6EC1E4;
+    --e-global-color-secondary: #FFFFFF;
+    --e-global-color-text: #FFFFFF;
+    --e-global-color-accent: #61CE70;
+    --e-global-color-277fbc5: #343434;
+    --e-global-color-9bd9dc2: #FFFFFF;
+    --e-global-color-215b809: #000000;
+    --e-global-color-3bd8626: #FF0000;
+    --e-global-color-382e176: #00EEFF;
+    --e-global-typography-primary-font-family: "Roboto";
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Roboto Slab";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Roboto";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Roboto";
+    --e-global-typography-accent-font-weight: 500;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px;
+}
+
+.e-con {
+    --container-max-width: 1140px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-bottom: 0px;
+}
+
+.elementor-element {
+    --widgets-spacing: 0px;
+}
+
+{}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+.elementor-kit-14 e-page-transition {
+    background-color: #FFBC7D;
+}
+
+@media(max-width:1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+    .e-con {
+        --container-max-width: 1024px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+    .e-con {
+        --container-max-width: 767px;
+    }
+}
